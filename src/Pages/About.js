@@ -3,7 +3,7 @@ class About extends Component {
     render() {
       return(
           <div>
-              <h1>About Clear Megha</h1>
+              <h1>About Clear Cloudify</h1>
           </div>
       )
     }}

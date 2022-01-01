@@ -34,7 +34,7 @@ export class Header extends Component {
             <Nav.Link><Link to="/partners">Partners</Link></Nav.Link>
             <Nav.Link><Link to="/ourteam">About</Link></Nav.Link>
             <Nav.Link><Link to="/blog">Blog</Link></Nav.Link> 
-            <Nav.Link><Link to="/contact">How we can Help?</Link></Nav.Link> 
+            <Nav.Link><Link to="/contact">Contact</Link></Nav.Link>
             </Nav> 
           {/* <Button className="headerbtn" href="/contact">CONTACT US</Button>  */}
           </Navbar.Collapse>

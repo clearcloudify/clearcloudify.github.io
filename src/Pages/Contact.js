@@ -16,7 +16,7 @@ function Contact(props) {
           <Col md={2}> 
           </Col>
           <Col md={8}>  
-          <Form action="mailto:sridhar@ana-data.com" method="GET">
+          <Form action="mailto:balaji@clearlcoudify.com" method="GET">
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Name</Form.Label>
     <Form.Control type="text" required  /> 

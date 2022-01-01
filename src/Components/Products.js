@@ -9,14 +9,6 @@ class Products extends Component {
      <div className="Productsection">
      <Container>
       <h1 className="text-center" id="demo">{name}</h1>
-      <p className="text-center">Our team of Cloud Advocates and Engineers will provide technology leadership, strategy, best practices,
-research, implementation, support and training to seamlessly move your IT workloads to Cloud. Our
-multi-disciplinary team will drive your cloud adoption efforts across the organization, including
-developing cloud best practices, mobilizing resources, establishing migration timelines, and leading the
-organization through large-scale transformations. Our Cloud CoE enables the organizations to balance
-speed and stability in the pursuit of their Digital Modernization journey.
-</p> 
-
    <Row className="productsctrls sectionew">  
    <Col md={3}>
        <div className="productsbox">

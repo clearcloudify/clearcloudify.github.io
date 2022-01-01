@@ -1,39 +1,48 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';   
+import Col from 'react-bootstrap/Col';
+import {Link} from "react-router-dom";
 const OurTeam = () => {
+    const name = 'About ClearCloudify'
     return (
         <React.Fragment>
+            <div className="Productsection">
+                <Container>
+                    <h1 className="text-center" id="demo">{name}</h1>
+                    <p className="text-justify">
+                        Clear Cloudify is a Technology Advisory of Ana-Data Consulting Inc., We deliver solid and widespread advocacy to enable your Digital Modernization journey. Our team of Cloud Advocates and Engineers will provide Technology Leadership, Solutions Consulting, Best Practices, Research, Implementation, Support and Training to seamlessly move your IT workloads to Cloud infrastructure.
+                        <br/><br/>We accelerate your Cloud Adoption journey by:
+                        <br/><br/>• Driving momentum across the organization
+                        <br/>• Developing reusable frameworks for cloud governance
+                        <br/>• Managing cloud knowledge and learning
+                        <br/>• Overseeing cloud usage and plans for scale
+                        <br/>• Aligning cloud offerings to the larger organizational strategy
+                        <br/><br/>Our Cloud Center of Excellence delivers Reference Architectures, Cloud Migration Roadmap, Cloud Adoption Playbook, Implementation Plan, Risk & Compliance, Detailed Documentation, Cost Estimation Template, Sandbox and Labs, Case Studies, Cloud Engineering Blogs.
+                        Our Multi-Disciplinary team will drive your cloud adoption efforts across the organization, including developing cloud best practices, mobilizing resources, establishing migration timelines, and leading the organization through large-scale transformations.
+                        We empower your organization to balance speed and stability in the pursuit of your Digital Modernization journey.
+                        <br/><br/>We are headquartered in Jersey City, New Jersey and have been providing technology solutions to our clients since 1993. We exhibit agility to build long-lasting value in every direction for our clients, people and communities.
+                    </p>
+                </Container>
+            </div>
             <Container className="team">
             <br></br>
-               <h1 style={{textAlign:"center"}}>About</h1>
+               <h1 style={{textAlign:"center"}}>Our Leadership</h1>
             <Row>
-                <Col md={4} className="text-center"> 
-                    <h1>Lal Vaghji</h1>
-                    <h6>Chief Executive Officer</h6>
-                    <p>Lal founded Ana-Data Consulting in 1993 and has over 25 years of industry experience. He has completed successful development and data warehouse projects for companies like IBM, Coopers and Lybrand, Pitney Bowes, AT&T, Cadbury Schweppes, Merrill Lynch, Nabisco, and Unilever. Lal obtained his BSc. in Information Systems from Sheffield Hallam University in UK and MBA from Sacred Heart University in Connecticut, USA
-
-</p>
+                <Col md={4}>
+                    <h1 className="text-center">Lal Vaghji</h1>
+                    <h6 className="text-center">Founder & CEO</h6>
+                    <p className="text-justify">Lal leads the business and growth of ClearCloudify. Lal has been heading Ana-Data Consulting Inc., for 28 years serving superior technology solutions to clients globally across multiple business domains. He is an accomplished entrepreneur with proven track record of identifying new opportunities and sustaining extraordinary business growth.</p>
                 </Col>
-                <Col md={4} className="text-center"> 
+                <Col md={4} className="text-justify">
                     <h1>Ravi Shankar</h1>
                     <h6>President</h6>
-                    <p>Ravi joined Ana-Data Consulting in 1998 and has over 25 years of industry experience. Ravi has provided financial systems strategy and advisory to banks, hedge funds, and asset management firms ranging from capital markets to corporate governance platforms. Ravi obtained his B.Sc in Statistics from Madras University, India, and B.Tech in Computer Science and Technology from Hyderabad Central University, Hyderabad, India.
-
-</p>
+                    <p>Ravi leads the strategy and operations of ClearCloudify. Ravi has been driving the business operations and strategy of Ana-Data Consulting Inc., for 23 years predominantly serving financial clients across geographies. He has championed Technology Solutions Consulting, Partnership Establishment, and Employee Engagement in all dimensions to elevate organizational performance globally.</p>
                 </Col>
-                <Col md={4} className="text-center"> 
+                <Col md={4} className="text-justify">
                     <h1>Balaji Soundararajan</h1>
                     <h6>Technology Executive</h6>
-                    <p>Technology Executive and change catalyst offering a proven track record of
-enhancing IT systems to advance corporate goals and support business strategy within public and
-private entities. Adept at planning and managing complex, multi-million dollar projects designed to
-improve, enhance and fortify business processes and structure. Expert at maximizing ROI through
-innovation, creativity and application of proven technology strategies. Offer solid ability to optimally
-allocate human, physical and financial resources. Tactfully engage relevant stakeholders, senior
-management and all levels of employees to carry out projects in accordance with requirements. Keep
-abreast of current trends; presenter at various high profile industry conferences</p>
+                    <p>Balaji leads the technology, business development and execution of ClearCloudify. </p>
                 </Col>
             </Row>
             </Container> 
