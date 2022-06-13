@@ -29,9 +29,8 @@ https://curlycoders.github.io/
     <!-- Header -->
     <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <i class='bx bx-buildings bx-sm text-dark'></i>
-                <span class="text-dark h4">Clear</span> <span class="text-primary h4">Cloudify</span>
+            <a class="navbar-brand h1" href="index.html"> 
+               <img class="logo" src="./assets/img/logo.png" alt="Card image" width="120px">
             </a>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -411,24 +410,14 @@ https://curlycoders.github.io/
 
             </div>
         </div>
-    </section>
-    <!-- End Recent Work -->
-
-
-
-    <!-- Start Footer -->
+    </section> 
     <footer class="bg-secondary pt-4">
         <div class="container">
-            <div class="row py-4">
-
-                <div class="col-lg-3 col-12 align-left">
-                    <a class="navbar-brand" href="index.html">
-                        <i class='bx bx-buildings bx-sm text-light'></i>
-                        <span class="text-light h5">Clear</span> <span class="text-light h5 semi-bold-600">Cloudify</span>
-                    </a>
+            <div class="row py-4"> 
+                <div class="col-lg-3 col-12 align-left"> 
                     <p class="text-light my-lg-4 my-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incididunt ut.
+                        <img class="logo-footer" src="./assets/img/logo.png" alt="Card image" width="120px" style="filter: brightness(0) invert(1);
+                        ">
                     </p>
                     <ul class="list-inline footer-icons light-300">
                         <li class="list-inline-item m-0">
@@ -441,21 +430,7 @@ https://curlycoders.github.io/
                                 <i class='bx bxl-linkedin-square bx-md'></i>
                             </a>
                         </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
-                                <i class='bx bxl-whatsapp-square bx-md'></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.flickr.com/">
-                                <i class='bx bxl-flickr-square bx-md'></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item m-0">
-                            <a class="text-light" target="_blank" href="https://www.medium.com/">
-                                <i class='bx bxl-medium-square bx-md' ></i>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div>
 
@@ -514,7 +489,7 @@ https://curlycoders.github.io/
                             <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" href="tel:010-020-0340">010-020-0340</a>
                         </li>
                         <li class="pb-2">
-                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:info@company.com">info@company.com</a>
+                            <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1" href="mailto:balaji@clearcloudify.com">balaji@clearcloudify.com</a>
                         </li>
                     </ul>
                 </div>
@@ -527,12 +502,12 @@ https://curlycoders.github.io/
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-                            © Copyright 2022 Clear Cloudify. All Rights Reserved.
+                            &copy; Copyright 2022 Clear Cloudify. All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://curlycoders.github.io/" target="_blank"><strong>Curly Coders</strong></a>
+                            Designed by <a rel="sponsored" class="text-decoration-none text-light" href="https://curlycoders.github.io/" target="_blank"><strong>{Curly Coders}</strong></a>
                         </p>
                     </div>
                 </div>
@@ -542,14 +517,18 @@ https://curlycoders.github.io/
     </footer>
     <!-- End Footer -->
 
-
+<div id="footer"></div>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Load jQuery require for isotope -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script> 
     <script src="assets/js/jquery.min.js"></script>
     <!-- Isotope -->
     <script src="assets/js/isotope.pkgd.js"></script>
-    <!-- Page Script -->
+    <!-- <script>
+            $(function() { 
+            $("#footer").load("footer.html");
+            });
+
+    </script> --> 
     <script>
         $(window).load(function() {
             // init Isotope
